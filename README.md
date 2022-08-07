@@ -41,21 +41,21 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
 **Step3: Set up the VPC, Subnet, NAT Gateway**
 
-         1.login to the AWS Console and search for the VPC Services
+  1.login to the AWS Console and search for the VPC Services
 
-         2.Click "Create VPC"
+  2.Click "Create VPC"
 
-   [](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-CreateVPCSubnetNAT.png)
-
-
-         3.Select "VPC and more", Type the VPC tag name and Enter the IPV4 CIDR block, 
-
-[](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createVPCSubnetNAT.png)
+   [Create VPC](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-CreateVPCSubnetNAT.png)
 
 
-         4.Select the number of AZs, Public and Private Subnets, NAT GW and VPC Endpoint.
+  3.Select "VPC and more", Type the VPC tag name and Enter the IPV4 CIDR block, 
 
-[](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createVPCSubnetNAT.png)
+[2](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createVPCSubnetNAT.png)
+
+
+  4.Select the number of AZs, Public and Private Subnets, NAT GW and VPC Endpoint.
+
+[3](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createVPCSubnetNAT.png)
 
 
 
