@@ -67,17 +67,20 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
 ![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-createIGW.png)
 
+
 3. Provide the Name Tag and clicke "Create Internet Gateway"
 
-![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createIGW.png)
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-CreateIGW.png)
 
-3. Attach the VPC created in the previous step, by select "Attach to VPC" from "Actions" dropdown
 
-![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createIGW.png)
+4. Attach the VPC created in the previous step, by select "Attach to VPC" from "Actions" dropdown
 
-4.Ensure the IGW is created successfully and attached with the VPC
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-CreateIGW.png)
 
-![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/04-createIGW-completion.png)
+
+5.Ensure the IGW is created successfully and attached with the VPC
+
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/04-CreateIGW-Completion.png)
 
 
 ### **Step5: Set up the RouteTable**
