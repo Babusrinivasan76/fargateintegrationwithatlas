@@ -45,17 +45,17 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
   2.Click "Create VPC"
 
-   [Create VPC](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-CreateVPCSubnetNAT.png)
+   ![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-CreateVPCSubnetNAT.png)
 
 
   3.Select "VPC and more", Type the VPC tag name and Enter the IPV4 CIDR block, 
 
-[2](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createVPCSubnetNAT.png)
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createVPCSubnetNAT.png)
 
 
   4.Select the number of AZs, Public and Private Subnets, NAT GW and VPC Endpoint.
 
-[3](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createVPCSubnetNAT.png)
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createVPCSubnetNAT.png)
 
 
 
