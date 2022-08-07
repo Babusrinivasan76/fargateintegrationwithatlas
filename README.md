@@ -30,7 +30,7 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
          
 ### **Step2: Download and containerize the application**        
 
-  Download the sample application from this repository  - " [ebsDemoApp.zip](https://github.com/Babusrinivasan76/ebsintegrationwithatlas/raw/main/ebsDemoApp.zip) ". 
+  Download the sample application from this repository  - " [FargateDemoApp.zip](https://github.com/Babusrinivasan76/ebsintegrationwithatlas/raw/main/ebsDemoApp.zip) ". 
          
   This application is having 3 APIs to register the user details to MongoDB Atlas(./api/v1/users) , to Query the user (./api/v1/login) and to check the health of the application (./api/v1/health)
          
