@@ -83,15 +83,34 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 ![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/04-CreateIGW-Completion.png)
 
 
-### **Step5: Set up the RouteTable**
+### **Step5: Set up the RouteTable for Public and Private Subnets**
 
+1.select the "Route Tables" from the left side menu of VPC Services
 
+2.Click "Create Route Table"
+
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-createpublicrt.png)
+
+3.Enter the Route table name, Select the VPC and add tags. Click "Create Route Table"
+
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createpublicrt.png)
+
+4. Associate the public subnets
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createpublicrt.png)
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/04-createpublicrt-subnetassociation.png)
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/05-createpublicrt-subnetassociation.png)
+
+5. Simillarly create the route table for the private subnet and associate the private subnets
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/06-createprivatert.png)
+![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/07-createprivatert.png)
 
 ### **Step6: Set up ECS Cluster**
 
-
+[Follow the step provided to create the ECS Cluster](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/07-createprivatert.png)
 
 ### **Step7: Testing the Application**
+
+Test the application by invoking the endpoint (appended with the /api/v1/healthcheck)
 
 
 
