@@ -24,11 +24,11 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 ## Step by Step Fargate Deployment:
 
 
-**Step1: Set up the MongoDB Atlas cluster**
+### **Step1: Set up the MongoDB Atlas cluster**
          
    MongoDB Atlas provides a free cluster setup. Pls follow the link to setup the [free cluster](https://www.mongodb.com/docs/atlas/getting-started/)
          
-**Step2: Download and containerize the application**        
+### **Step2: Download and containerize the application**        
 
   Download the sample application from this repository  - " [ebsDemoApp.zip](https://github.com/Babusrinivasan76/ebsintegrationwithatlas/raw/main/ebsDemoApp.zip) ". 
          
@@ -39,7 +39,7 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
   Change the database connection details in app.py
   
 
-**Step3: Set up the VPC, Subnet, NAT Gateway**
+### **Step3: Set up the VPC, Subnet, NAT Gateway**
 
   1.login to the AWS Console and search for the VPC Services
 
@@ -59,7 +59,7 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
 
 
-**Step4: Set up the Internet Gateway(IGW)**
+### **Step4: Set up the Internet Gateway(IGW)**
 
 1.From the left side panel of VPC menu, select the "Internet Gateway"
 
@@ -80,15 +80,15 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 ![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/04-createIGW-completion.png)
 
 
-**Step5: Set up the RouteTable**
+### **Step5: Set up the RouteTable**
 
 
 
-**Step6: Set up ECS Cluster**
+### **Step6: Set up ECS Cluster**
 
 
 
-**Step7: Testing the Application**
+### **Step7: Testing the Application**
 
 
 
