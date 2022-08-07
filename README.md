@@ -53,7 +53,7 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 ![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createVPCSubnetNAT.png)
 
 
-  4.Select the number of AZs, Public and Private Subnets, NAT GW and VPC Endpoint.
+  4.Select the number of AZs, Public and Private Subnets, NAT GW , VPC Endpoint and click "Create VPC"
 
 ![](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createVPCSubnetNAT.png)
 
