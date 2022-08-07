@@ -106,7 +106,7 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
 ### **Step6: Set up ECS Cluster**
 
-[Follow the step provided to create the ECS Cluster](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/07-createprivatert.png)
+[Follow the step provided to create the ECS Cluster](https://github.com/Babusrinivasan76/setupecscluster/blob/main/README.md)
 
 ### **Step7: Testing the Application**
 
