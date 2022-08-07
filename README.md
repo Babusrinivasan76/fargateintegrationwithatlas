@@ -23,15 +23,57 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
 ## Step by Step Fargate Deployment:
 
+
+**Step1: Set up the MongoDB Atlas cluster**
+         
+   MongoDB Atlas provides a free cluster setup. Pls follow the link to setup the [free cluster](https://www.mongodb.com/docs/atlas/getting-started/)
+         
+**Step2: Download and containerize the application**        
+
+  Download the sample application from this repository  - " [ebsDemoApp.zip](https://github.com/Babusrinivasan76/ebsintegrationwithatlas/raw/main/ebsDemoApp.zip) ". 
+         
+  This application is having 3 APIs to register the user details to MongoDB Atlas(./api/v1/users) , to Query the user (./api/v1/login) and to check the health of the application (./api/v1/health)
+         
+  Change the .env parameters as per the MongoDB Database and collections you created in step1
+         
+  Change the database connection details in app.py
+  
+
 **Step3: Set up the VPC, Subnet, NAT Gateway**
+
+1.login to the AWS Console and search for the VPC Services
+
+2.Click "Create VPC"
+
+[](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/01-CreateVPCSubnetNAT.png)
+
+
+3.Select "VPC and more", Type the VPC tag name and Enter the IPV4 CIDR block, 
+
+[](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/02-createVPCSubnetNAT.png)
+
+
+4.Select the number of AZs, Public and Private Subnets, NAT GW and VPC Endpoint.
+
+[](https://github.com/Babusrinivasan76/fargateintegrationwithatlas/blob/main/images/03-createVPCSubnetNAT.png)
+
+
+
 
 **Step4: Set up the Internet Gateway(IGW) **
 
+
+
 **Step5: Set up the RouteTable**
+
+
 
 **Step6: Set up ECS Cluster**
 
+
+
 **Step7: Testing the Application**
+
 
 
 ## Summary:
