@@ -1,0 +1,2 @@
+[config]
+uri=mongodb+srv://s3load:s3load@s3load.frzascf.mongodb.net/?retryWrites=true&w=majority
